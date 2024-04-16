@@ -1,6 +1,6 @@
 const UserModel = require('../../dbSchema/userModel')
 const ApiresponeHandler = require("../../service/ApiresponseHandler");
-const jwtService = require("../../service/jwtService")
+const jwtService = require("../../service/jwtservice")
 
 const userController={
     userDetails:async (req,res,next)=>{

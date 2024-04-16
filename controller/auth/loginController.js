@@ -1,6 +1,6 @@
 const UserModel = require('../../dbSchema/userModel');
 const ApiresponeHandler = require("../../service/ApiresponseHandler");
-const jwtService = require("../../service/jwtService");
+const jwtService = require("../../service/jwtservice");
 const bcrypt = require("bcrypt");
 
 const loginController = {

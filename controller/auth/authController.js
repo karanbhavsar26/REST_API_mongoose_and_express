@@ -1,7 +1,7 @@
 const ApiresponeHandler = require("../../service/ApiresponseHandler");
 const UserModel = require("../../dbSchema/userModel");
 const bcrypt = require ("bcrypt")
-const jwtService = require("../../service/jwtService")
+const jwtService = require("../../service/jwtservice")
 
 const authController = {
     register: async (req, res, next) => {
